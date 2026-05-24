@@ -29,7 +29,7 @@
         <PackageReference Include="JetBrains.Annotations" Version="2025.2.4">
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
-        <PackageReference Include="KaitaiStruct.Runtime.CSharp" Version="0.10.0" />
+        <PackageReference Include="KaitaiStruct.Runtime.CSharp" Version="0.11.0" />
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
         <PackageReference Include="MinVer" Version="7.0.0">
             <PrivateAssets>all</PrivateAssets>
