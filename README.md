@@ -1,7 +1,7 @@
 # <img src="assets/NSS-128x128.png" align="left" />Nefarius.Shared.PdbUtils
 
 [![.NET](https://github.com/nefarius/Nefarius.Shared.PdbUtils/actions/workflows/build.yml/badge.svg)](https://github.com/nefarius/Nefarius.Shared.PdbUtils/actions/workflows/build.yml)
-![Requirements](https://img.shields.io/badge/Requires-.NET%20Standard%202.0%20%2F%20.NET%208%2F9-blue.svg)
+![Requirements](https://img.shields.io/badge/Requires-.NET%20Standard%202.0%20%2F%20.NET%208%2F9%2F10-blue.svg)
 [![NuGet Version](https://img.shields.io/nuget/v/Nefarius.Shared.PdbUtils)](https://www.nuget.org/packages/Nefarius.Shared.PdbUtils/)
 [![NuGet](https://img.shields.io/nuget/dt/Nefarius.Shared.PdbUtils)](https://www.nuget.org/packages/Nefarius.Shared.PdbUtils/)
 
@@ -14,7 +14,7 @@ resolution.
 
 - Cross-platform PDB parsing via a [Kaitai Struct](https://kaitai.io/)-generated binary reader
 - Extension method to extract the original PDB file name from the DBI stream
-- Targets `.NET Standard 2.0`, `.NET 8` and `.NET 9`
+- Targets `.NET Standard 2.0`, `.NET 8`, `.NET 9` and `.NET 10`
 
 ## Documentation
 
