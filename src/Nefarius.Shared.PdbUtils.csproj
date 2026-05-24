@@ -4,6 +4,12 @@
         <TargetFrameworks>netstandard2.0;net8.0;net9.0</TargetFrameworks>
         <RootNamespace>Nefarius.Shared.PdbUtils</RootNamespace>
         <Nullable>enable</Nullable>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/nefarius/Nefarius.Shared.PdbUtils</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/nefarius/Nefarius.Shared.PdbUtils</PackageProjectUrl>
+        <Description>Shared utilities for parsing Microsoft Program Database (PDB) files based on kaitai-pdb.</Description>
+        <PackageTags>pdb;kaitai;debugging;symbols;windows</PackageTags>
+        <NoWarn>CS1591;CS8618;CS8625;CS8629;CS8600;CS8601;CS8603;CS8604</NoWarn>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -20,11 +26,12 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="JetBrains.Annotations" Version="2025.2.0">
+        <PackageReference Include="JetBrains.Annotations" Version="2025.2.4">
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
         <PackageReference Include="KaitaiStruct.Runtime.CSharp" Version="0.10.0" />
-        <PackageReference Include="MinVer" Version="6.0.0">
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+        <PackageReference Include="MinVer" Version="7.0.0">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>

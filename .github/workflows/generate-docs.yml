@@ -13,7 +13,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: master
-          submodules: true
 
       - name: Setup .Net SDK
         uses: actions/setup-dotnet@v4
@@ -27,7 +26,7 @@ jobs:
         run: dotnet build -c Release
 
       - name: Generate API docs
-        run: xmldoc2md ./bin/net8.0-windows8.0/${{ github.event.repository.name }}.dll ./docs/
+        run: xmldoc2md ./bin/net8.0/${{ github.event.repository.name }}.dll ./docs/
 
       - name: Check for changes
         id: check-for-changes
@@ -36,7 +35,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git diff --cached --exit-code || git commit -m "Update API documentation"
-  
+
       - name: Push changes
         if: success() && steps.check-for-changes.outcome == 'success'
         run: git push

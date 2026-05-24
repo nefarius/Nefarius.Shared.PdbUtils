@@ -2,7 +2,7 @@
 
 namespace Nefarius.Shared.PdbUtils.Kaitai.PDB;
 
-public class Concat
+internal class Concat
 {
     private readonly ICollection<byte[]> _blocks;
 
@@ -17,7 +17,7 @@ public class Concat
     }
 }
 
-public class ConcatPages
+internal class ConcatPages
 {
     private readonly ICollection<MsPdb.PdbPage> _items;
 
@@ -32,7 +32,7 @@ public class ConcatPages
     }
 }
 
-public class Cat
+internal class Cat
 {
     private readonly byte[] _item;
 

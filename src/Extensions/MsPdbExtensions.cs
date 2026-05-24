@@ -2,6 +2,9 @@
 
 namespace Nefarius.Shared.PdbUtils.Extensions;
 
+/// <summary>
+///     Extension methods for <see cref="MsPdb" />.
+/// </summary>
 public static class MsPdbExtensions
 {
     /// <summary>

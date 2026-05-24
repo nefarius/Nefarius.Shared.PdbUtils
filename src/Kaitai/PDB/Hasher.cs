@@ -2,7 +2,7 @@
 
 namespace Nefarius.Shared.PdbUtils.Kaitai.PDB;
 
-public class Hasher
+internal class Hasher
 {
     public static uint HashUlong(uint value)
     {
