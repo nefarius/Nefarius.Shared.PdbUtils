@@ -8,7 +8,8 @@
 Shared utilities for parsing Microsoft Program Database (PDB) files, based on
 [kaitai-pdb](https://github.com/smx-smx/kaitai-pdb). Used internally by
 [Nefarius.Utilities.ETW](https://github.com/nefarius/Nefarius.Utilities.ETW) for WPP Software Tracing symbol
-resolution.
+resolution and by [WinDbgSymbolsCachingProxy](https://github.com/nefarius/WinDbgSymbolsCachingProxy) for
+server-side PDB inspection.
 
 ## Features
 
